@@ -3,7 +3,9 @@ from PIL import ImageTk,Image
 from tkinter import messagebox
 import pymysql
 
-
+# Add your own database name and password here to reflect in the code
+mypass = "12345"
+mydatabase="library"
 
 def bookRegister():
     
@@ -42,10 +44,6 @@ def addBooks():
     root.title("Library")
     root.minsize(width=400,height=400)
     root.geometry("600x500")
-
-    # Add your own database name and password here to reflect in the code
-    mypass = "NImo@2211"
-    mydatabase="library"
 
     con = pymysql.connect(host="localhost",user="root",password=mypass,database=mydatabase)
     cur = con.cursor()
