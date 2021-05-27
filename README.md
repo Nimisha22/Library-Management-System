@@ -50,7 +50,7 @@ Also it reduces the staff required for each task. Less time consuming.
 # Conclusion
 SQL database management application which is very well used in the modern world in organising and manipulation a database.
 
-Though SQL does not have the GUI we have integrated with python to manage the database comfortably.
+Though SQL does not have the GUI I have integrated it with python to manage the database comfortably.
 
 Depending on the user or users, if an organisation has multiple users then they should go for SQL server based application.
 
