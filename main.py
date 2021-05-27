@@ -10,13 +10,8 @@ from IssueBook import *
 from returnbook import *
 
 
-
-
-
-
-
 # Add your own database name and password here to reflect in the code
-mypass = "NImo@2211"
+mypass = "12345"
 mydatabase="library"
 
 # Enter Table Names here
